@@ -1,0 +1,59 @@
+# ✈️ **Airline Flight Delay Analysis – MySQL Case Study**
+
+---
+
+**🚀 Project Objective**
+
+The objective of this project was to analyze airline flight delays using MySQL. The aim was to discover patterns in delays, cancellations, 
+and operational inefficiencies to help airlines improve on-time performance, reduce costs, and enhance customer satisfaction.
+
+---
+
+**🗄️ Data Overview**
+
+The analysis uses a table called `airline_delay` with fields such as:
+
+- `carrier_name` → Airline name
+- `airport_name` → Airport name
+- `year`, `month` → Date attributes
+- `arr_flights` → Total arriving flights
+- `arr_del15` → Flights delayed more than 15 minutes
+- `carrier_delay` → Delay minutes due to airline operations
+- `weather_delay` → Delay minutes due to weather
+- `nas_delay` → Delay minutes due to National Airspace System issues
+- `security_delay` → Delay minutes due to security checks
+- `late_aircraft_delay` → Delay minutes due to late arriving aircraft
+- `arr_cancelled` → Cancelled flights
+
+---
+
+**🛠️ Tools Used**
+
+- **MySQL** for data extraction and analysis
+- SQL techniques:
+  - Grouping and aggregations
+  - Window functions
+  - CTEs for complex logic (if needed)
+
+---
+💡 Key Insights
+
+- Certain airlines show significantly higher delay percentages, suggesting operational inefficiencies.
+
+- Some airports consistently experience higher delays, indicating possible bottlenecks.
+
+- Summer months tend to have increased delays, potentially due to higher passenger volume or weather factors.
+
+- Late aircraft connections are a major cause of cascading delays.
+
+🏆 Business Value Delivered
+
+-- Helps airlines target operational improvements.
+
+-- Allows airports to allocate resources more effectively.
+
+-- Supports regulatory and strategic decisions in the aviation industry.
+
+-- Contributes to improving customer satisfaction by addressing delay root causes.
+
+
